@@ -1,7 +1,8 @@
 fastapi
-uvicorn
+uvicorn[standard]
 celery
 redis
+textblob
+pydantic
 python-multipart
 pandas
-textblob
