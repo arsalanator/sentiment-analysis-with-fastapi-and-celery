@@ -25,9 +25,9 @@ create_folder_with_gitkeep src/core/infrastructure/file_storage
 create_folder_with_gitkeep src/core/infrastructure/sentiment_analysis
 create_folder_with_gitkeep src/core/infrastructure/messaging
 
-create_folder_with_gitkeep src/core/interfaces/api/routes
-create_folder_with_gitkeep src/core/interfaces/api/schemas
-create_folder_with_gitkeep src/core/interfaces/cli
+create_folder_with_gitkeep src/core/application/ports/
+create_folder_with_gitkeep src/core/application/services/
+create_folder_with_gitkeep src/core/infrastructure/adapters/
 
 create_folder_with_gitkeep src/core/config/env
 create_folder_with_gitkeep src/core/config/logging
