@@ -1,0 +1,1 @@
+from core.infrastructure.adapters.input.celery_worker import worker  # noqa

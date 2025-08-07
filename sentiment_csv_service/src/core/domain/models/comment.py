@@ -7,10 +7,11 @@ class Sentiment(str, Enum):
     POSITIVE = "Positive"
     NEGATIVE = "Negative"
     NEUTRAL = "Neutral"
+    UNKNOWN = "unknown"
 
 
 @dataclass
 class Comment:
-    id: int
+    id: str
     text: str
-    sentiment: Optional[Sentiment] = None
+    sentiment: Sentiment = Sentiment.UNKNOWN
